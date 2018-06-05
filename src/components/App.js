@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div>
+        <div className="flex-l justify-end">
           <FeaturedMix />
           <div>
             <Header />
@@ -17,8 +17,9 @@ class App extends Component {
           width="100%"
           height="60"
           src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fpelvispelvispelvis%2Fnoise-in-my-head-230614-w-pelvis%2F"
-          frameBorder="0">
-        </iframe>
+          frameBorder="0"
+          className="db fixed bottom-0 z-5"
+        />
       </div>
     );
   }
